@@ -1,0 +1,17 @@
+## mysql
+spring:
+  datasource:
+     type: com.alibaba.druid.pool.DruidDataSource
+     master:
+        url: 111
+        username: 1
+        password: 1
+        driver-class-name: com.mysql.jdbc.Driver
+     slave:
+       url: 222
+       username: 2
+       password: 2
+       driver-class-name: com.mysql.jdbc.Driver
+
+## druid
+
